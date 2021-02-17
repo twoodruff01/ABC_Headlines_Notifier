@@ -1,10 +1,8 @@
 from parsers.article_parser import ArticleParser
-
 from locators.all_locators import AllLocators
 
 
 class MainPage:
-
     def __init__(self, browser):
         self.browser = browser
 
